@@ -1,4 +1,4 @@
-# An AWS Development Environment for Python 3
+# An AWS Development Environment for Python
 
 ## Purpose
 1. Provides a template for building Python Applications for AWS using Visual Studio Code, along with the associated tools.
