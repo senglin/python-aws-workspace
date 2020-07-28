@@ -89,6 +89,9 @@ RUN \
     && apt-get install -y nodejs \
     && npm install -g @aws-amplify/cli
     #
+    # Install Python specific tools for AWS CLI
+    RUN pip install pipenv
+    #
     # Install FARGATE CLI
     COPY --from=fargatedist /fargate/fargate /usr/local/bin/
     # && curl -L -o fargate-0.3.2-linux-amd64.zip https://github.com/awslabs/fargatecli/releases/download/0.3.2/fargate-0.3.2-linux-amd64.zip \
