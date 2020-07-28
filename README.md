@@ -22,7 +22,10 @@
 10. Curl, Wget, Vim
 
 ## Developing inside a Container
-1. Clone this repository or copy just the `.devcontainer` folder into your own local git repository folder.
+1. Clone this repository or copy just the `.devcontainer` folder into your own local git repository folder. You can also run the following script in your terminal.
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/senglin/python-aws-workspace/master/install.sh)
+```
 2. Start VS Code, and in a new window, click on the quick actions Status Bar item in the lower left corner.
 3. Select **Remote-Containers:Reopen in Container**.
 4. From the menu, select **Terminal -> New Terminal**.  You can now use the installed tools to clone, develop and deploy to AWS.
