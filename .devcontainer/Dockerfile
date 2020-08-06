@@ -99,7 +99,7 @@ RUN \
     # && rm -rf fargate-0.3.2-linux-amd64.zip
     #
     # Install script to automate the emptying of AWS S3 bucket (with object versioning enabled)
-    COPY aws-s3-empty-bucket.sh /usr/local/bin/
+    COPY *.sh /usr/local/bin/
 
 # Docker installation
 RUN \
